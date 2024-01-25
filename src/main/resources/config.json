@@ -1,0 +1,17 @@
+{
+  "vote": {
+    "reward": {
+      "amount": "2-23",
+      "item": "diamond"
+    },
+    "missions": {
+      "missions:votes": "1-1"
+    },
+    "titles": [
+      "Splash",
+      "Spitting luck",
+      "Bad weather",
+      "Humid work"
+    ]
+  }
+}
