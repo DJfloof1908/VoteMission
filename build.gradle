@@ -38,6 +38,9 @@ dependencies {
 
 	// Create: Missions 0.2.6
 	modImplementation "curse.maven:missions-911382:5034440"
+
+	// Votifier 1.1
+	modImplementation "curse.maven:votifier-for-fabric-963421:5048168"
 }
 
 processResources {

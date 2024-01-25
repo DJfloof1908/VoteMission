@@ -22,9 +22,8 @@
     "votemission.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=${fabric_loader_version}",
-    "fabric-api": ">=${fabric_api_version}",
-    "minecraft": "${minecraft_version}",
-    "missions": ">=${missions_version}"
+    "fabric": "*",
+    "minecraft": "1.20.1",
+    "missions": "*"
   }
 }
