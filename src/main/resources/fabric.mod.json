@@ -10,7 +10,7 @@
   "contact": {
     "sources": "https://github.com/Kryeit/VoteMission"
   },
-  "license": "CC0",
+  "license": "MIT",
   "icon": "assets/votemission/icon.png",
   "environment": "*",
   "entrypoints": {
