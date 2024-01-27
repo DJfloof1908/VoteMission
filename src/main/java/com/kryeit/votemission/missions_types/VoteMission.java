@@ -16,6 +16,11 @@ import java.util.UUID;
 public class VoteMission implements MissionType {
 	private static final Identifier IDENTIFIER = new Identifier(Main.MOD_ID, "votes");
 
+	@Override
+	public Text description() {
+		return Text.literal("Vote %s times");
+	}
+
 	public static void handleVote(UUID player) {
 		MissionManager.incrementMission(player, VoteMission.class, IDENTIFIER, 1);
 	}
@@ -43,11 +48,6 @@ public class VoteMission implements MissionType {
 	@Override
 	public void increment(int amount, Identifier item, NbtCompound data) {
 		data.putInt("votes", data.getInt("votes") + 1);
-	}
-
-	@Override
-	public Text description() {
-		return Text.literal("Voting mission");
 	}
 
 	@Override
