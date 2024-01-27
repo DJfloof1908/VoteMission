@@ -13,8 +13,6 @@ import net.minecraft.util.Identifier;
 
 import java.util.UUID;
 
-import static com.kryeit.votemission.Main.ID;
-
 public class VoteMission implements MissionType {
 	private static final Identifier IDENTIFIER = new Identifier(Main.MOD_ID, "votes");
 

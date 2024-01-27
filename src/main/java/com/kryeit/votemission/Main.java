@@ -1,12 +1,9 @@
 package com.kryeit.votemission;
 
 import com.kryeit.missions.MissionTypeRegistry;
-
 import com.kryeit.votemission.listener.OnVote;
 import com.kryeit.votemission.missions_types.VoteMission;
-
 import com.kryeit.votifier.model.VotifierEvent;
-
 import net.fabricmc.api.DedicatedServerModInitializer;
 
 import org.slf4j.Logger;
