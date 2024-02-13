@@ -1,6 +1,6 @@
 package com.kryeit.votemission.missions_types;
 
-import com.kryeit.Main;
+import com.kryeit.Missions;
 import com.kryeit.missions.MissionDifficulty;
 import com.kryeit.missions.MissionManager;
 import com.kryeit.missions.MissionType;
@@ -14,7 +14,7 @@ import net.minecraft.util.Identifier;
 import java.util.UUID;
 
 public class VoteMission implements MissionType {
-	private static final Identifier IDENTIFIER = new Identifier(Main.MOD_ID, "votes");
+	private static final Identifier IDENTIFIER = Missions.asResource("votes");
 
 	@Override
 	public Text description() {
