@@ -36,9 +36,8 @@ dependencies {
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
-	// Create: Missions 0.2.12
-	modImplementation "curse.maven:missions-911382:5105859"
-
+	// Create: Missions 0.2.13
+	modImplementation "curse.maven:missions-911382:5134904"
 	// Votifier 1.1
 	modImplementation "curse.maven:votifier-for-fabric-963421:5048168"
 }

@@ -41,7 +41,7 @@ public class VoteMission implements MissionType {
 	}
 
 	@Override
-	public void reset(UUID player) {
+	public void reset(UUID player, Identifier item) {
 		getData(player).remove("votes");
 	}
 
