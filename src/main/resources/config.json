@@ -1,8 +1,14 @@
 {
   "vote": {
     "reward": {
-      "amount": "2-23",
-      "item": "diamond"
+     [
+  {"numismatics:spur": "8"},
+  {"numismatics:bevel": "2"},
+  {"numismatics:sprocket": "4"},
+  {"numismatics:cog": "8"},
+  {"numismatics:crown": "8"},
+  {"numismatics:sun": "1"}
+]
     },
     "missions": {
       "missions:votes": "2-4"
